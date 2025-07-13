@@ -1,0 +1,21 @@
+.js-button{
+
+border-radius: 9px;
+border: 1px;
+background-color:rgb(40, 133, 133) ;
+
+ color: antiquewhite;
+}
+ .js-button:hover{
+ background-color: antiquewhite;
+color: rgb(40, 133, 133);
+transition: 0.39s;
+
+cursor: pointer;
+ }
+body{
+
+background-color: rgb(231, 158, 158);
+
+
+}
