@@ -53,7 +53,7 @@
 
 // let str2 ='MuntasirFahim';
 // console.log(str2[8]);
-
+ 
  //template literals
 // let specialString = `This a template literal`
 // console.log(specialString);
@@ -67,9 +67,16 @@
 
 // console.log(output);
 
-let specialString = `This is a template literal ${(548*36)+((910)-(100*20))}`;
+// let specialString = `This is a template literal ${(548*36)+((910)-(100*20))}`;
 
-console.log(specialString);
+// console.log(specialString);
 
-console.log(" Muntasir\tIslam\n\t\tFahim");
+// console.log(" Muntasir\tIslam\n\t\tFahim");
+//string.method
 
+// let str ="MUNTASIR ISLAM";
+// console.log(str);
+// let newstr=str.toLowerCase();
+// console.log(newstr);
+let str ="       muntasir fahim js     ";
+console.log(str.trim());
