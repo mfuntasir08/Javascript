@@ -38,17 +38,38 @@
 // }
 // practice qs 2:
 
-let gameNum = 46;
+// let gameNum = 46;
  
-let userNum = prompt("Guess the game num :");
+// let userNum = prompt("Guess the game num :");
 
-while(userNum != gameNum) { //game
- userNum  = prompt("you have entered the wrong number.Guess again:");
-}
+// while(userNum != gameNum) { //game
+//  userNum  = prompt("you have entered the wrong number.Guess again:");
+// }
 
-console.log("congratualations,you have entered the right number");
+// console.log("congratualations,you have entered the right number");
 
+//string
+// let str ="MuntasirIslam";
 
+// let str2 ='MuntasirFahim';
+// console.log(str2[8]);
 
+ //template literals
+// let specialString = `This a template literal`
+// console.log(specialString);
 
+// let obj = {
+// item:"book",
+// price:260,
+// }
+// let output = `The cost of the ${obj.item} is ${obj.price} taka.`;
+// console.log("The cost of the",obj.item,"is",obj.price,"taka.");
+
+// console.log(output);
+
+let specialString = `This is a template literal ${(548*36)+((910)-(100*20))}`;
+
+console.log(specialString);
+
+console.log(" Muntasir\tIslam\n\t\tFahim");
 
