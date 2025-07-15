@@ -78,5 +78,9 @@
 // console.log(str);
 // let newstr=str.toLowerCase();
 // console.log(newstr);
-let str ="       muntasir fahim js     ";
-console.log(str.trim());
+// let str ="       muntasir fahim js     ";
+// console.log(str.trim());
+
+let str1 ="muntasirislam ";
+
+console.log(str1.replaceAll("i","e"));
