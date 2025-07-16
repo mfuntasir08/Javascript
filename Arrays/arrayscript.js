@@ -18,20 +18,29 @@
 // console.log(hero.toUpperCase())
 // }
   // practice qs:1
-let sum = 0;
-  let marks = [85,97,44,37,76,60];
+// let sum = 0;
+//   let marks = [85,97,44,37,76,60];
 //    for (let i = 0;i<marks.length;i++){
 //     sum=sum+marks[i];
 //    }
 // console.log("Average =",sum/marks.length);
 
-for(let mark of marks){
-  sum+=mark;
-}
-console.log("Average =",sum/marks.length);
+// for(let mark of marks){
+//   sum+=mark;
+// }
+// console.log("Average =",sum/marks.length);
 
+ //practice qs : 2
+ let itemPrice = [250,645,300,900,50];
+let i = 0;
+for (let val of itemPrice){
 
+let offer = val /10;
+itemPrice[i] = itemPrice[i]-offer;
 
+console.log(`value after offer ${itemPrice[i]}`);
+i++;
+};
 
 
 
