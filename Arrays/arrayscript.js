@@ -31,19 +31,23 @@
 // console.log("Average =",sum/marks.length);
 
  //practice qs : 2
- let itemPrice = [250,645,300,900,50];
-let i = 0;
-for (let val of itemPrice){
+//  let itemPrice = [250,645,300,900,50];
+// let i = 0;
+// for (let val of itemPrice){
 
-let offer = val /10;
-itemPrice[i] = itemPrice[i]-offer;
+// let offer = val /10;
+// itemPrice[i] = itemPrice[i]-offer;
 
-console.log(`value after offer ${itemPrice[i]}`);
-i++;
-};
-
-
-
+// console.log(`value after offer ${itemPrice[i]}`);
+// i++;
+// };
+ 
+let items = [250,645,300,900,50];
+ for (let i = 0;i<items.length;i++){
+  let offer = items[i]/10;
+  items[i] -= offer;
+ }
+console.log("price with offer",items);
 
 
 
