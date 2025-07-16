@@ -81,6 +81,17 @@
 // let str ="       muntasir fahim js     ";
 // console.log(str.trim());
 
-let str1 ="muntasirislam ";
+// let str1 ="muntasirislam ";
 
-console.log(str1.replaceAll("i","e"));
+// console.log(str1.replaceAll("i","e"));
+
+//string practice questions:
+
+let userName = prompt ("Enter your name");
+
+console.log(`@  ${userName}  ${userName.length}`);
+
+
+
+
+
