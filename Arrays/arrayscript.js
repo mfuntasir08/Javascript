@@ -49,13 +49,17 @@
 //  }
 // console.log("price with offer",items);
 
-let foodItems =["potato","apple","tomato"];
+// let foodItems =["potato","apple","tomato"];
 
 
-foodItems.pop();
-console.log(foodItems.toString());
+// foodItems.pop();
+// console.log(foodItems.toString());
 
+let arr = [34,43,2254,2424,757] ;
 
+ arr.splice(1,3,101,1013,89);
+
+console.log(arr);
 
 
 
