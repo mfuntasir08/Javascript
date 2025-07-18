@@ -62,7 +62,10 @@ let arr = [34,43,2254,2424,757] ;
 //  console.log(arr);
 
 // add element
-arr.splice(0,0,101,12);
+// arr.splice(0,0,101,12);
+
+// delete element
+arr.splice(2,1);
 
  console.log(arr);
 
