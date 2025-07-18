@@ -57,13 +57,14 @@
 
 let arr = [34,43,2254,2424,757] ;
 
- arr.splice(1,3,101,1013,89);
+//  arr.splice(1,3,101,1013,89);
 
-console.log(arr);
+//  console.log(arr);
 
+// add element
+arr.splice(0,0,101,12);
 
-
-
+ console.log(arr);
 
 
 
