@@ -55,7 +55,7 @@
 // foodItems.pop();
 // console.log(foodItems.toString());
 
-let arr = [34,43,2254,2424,757] ;
+// let arr = [34,43,2254,2424,757] ;
 
 //  arr.splice(1,3,101,1013,89);
 
@@ -65,9 +65,30 @@ let arr = [34,43,2254,2424,757] ;
 // arr.splice(0,0,101,12);
 
 // delete element
-arr.splice(2,1);
+// arr.splice(2,1);
 
- console.log(arr);
+// replace element
+// arr.splice(2,1,101)
+
+//  console.log(arr);
+
+// practice qs 
+
+let arr = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+arr.push("Amazon");
+arr.splice(2,1,"Ola");
+arr.splice(0,1);
+
+console.log(arr);
+
+
+
+
+
+
+
+
 
 
 
