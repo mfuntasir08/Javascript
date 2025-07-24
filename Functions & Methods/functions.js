@@ -36,6 +36,35 @@
 //   console.log(a+b);
 // }
 
-const arrowMul = (a,b)=>{
-  console.log(a*b);
-}
+// const arrowMul = (a,b)=>{
+//   console.log(a*b);
+// }
+
+//practice qs =>1
+ 
+// function countVowels(str){
+//   let count = 0; 
+//   for (const char of str){
+//   if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+//     count++;
+
+//       console.log("vowels",char);
+//    } else {
+//     console.log("consonant",char);
+//    }
+//   }
+//   return count;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
