@@ -56,8 +56,20 @@
 //   return count;
 // }
 
+const countVowels=(str)=>{
+  let count = 0;
+for (const char of str){
 
+ if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+count++;
+console.log(count);
+console.log("vowels",char);
+} else{ console.log("consonant",char);
+   }
 
+}
+console.log("total vowel=",count)
+}
 
 
 
