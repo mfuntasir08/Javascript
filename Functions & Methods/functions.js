@@ -19,11 +19,23 @@
 
 // sum(1,68);
 
-function sum(x, y){
-s = x+y;
-return s;
+// function sum(x, y){
+// s = x+y;
+// return s;
+// }
+
+// let val = sum(3,5);
+// console.log(val);
+
+//SUM
+// function sum(a,b){
+//   return a+b;
+
+// }
+// const arrowSum = (a,b)=> {
+//   console.log(a+b);
+// }
+
+const arrowMul = (a,b)=>{
+  console.log(a*b);
 }
-
-let val = sum(3,5);
-console.log(val);
-
