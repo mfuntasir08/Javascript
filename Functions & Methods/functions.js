@@ -87,12 +87,29 @@
 //  }
 //  )
 //  console.log(output);
-let arr = [103, 382, 5463, 4785354,3838,282921,9292292];
- const output = arr.reduce((prev,curr) =>{
-return prev > curr ? prev : curr;
- }
- )
- console.log(output);
+// let arr = [103, 382, 5463, 4785354,3838,282921,9292292];
+//  const output = arr.reduce((prev,curr) =>{
+// return prev > curr ? prev : curr;
+//  }
+//  )
+//  console.log(output);
+
+// func qs:
+
+// let arr = [87,93,67,98,96,89,90,25,91,34,76,11];
+
+// const nintyUpNumbers=arr.filter((val)=>{
+// return val>=90;
+// })
+// console.log(nintyUpNumbers);
+
+
+
+
+
+
+
+
 
 
 
