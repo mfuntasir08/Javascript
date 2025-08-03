@@ -56,20 +56,32 @@
 //   return count;
 // }
 
-const countVowels=(str)=>{
-  let count = 0;
-for (const char of str){
+// const countVowels=(str)=>{
+//   let count = 0;
+// for (const char of str){
 
- if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
-count++;
-console.log(count);
-console.log("vowels",char);
-} else{ console.log("consonant",char);
-   }
+//  if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+// count++;
 
+// console.log("vowels",char);
+
+// }
+
+// }
+// countVowels("count")
+
+
+let arr = [1,2,3,4,5,];
+
+let arr1 = [34,5,23,6,57,29];
+   
+arr1.forEach((val)=>{
+ val*=val
+console.log(val);
 }
-console.log("total vowel=",count)
-}
+)
+
+
 
 
 
