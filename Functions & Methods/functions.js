@@ -71,23 +71,28 @@
 // countVowels("count")
 
 
-let arr = [1,2,3,4,5,];
+// let arr = [1,2,3,4,5,];
 
-let arr1 = [34,5,23,6,57,29];
+// let arr1 = [34,5,23,6,57,29];
    
-arr1.forEach((val)=>{
- val*=val
-console.log(val);
-}
-)
+// arr1.forEach((val)=>{
+//  val*=val
+// console.log(val);
+// }
 
 
-
-
-
-
-
-
+// let arr = [1, 2, 3, 4];
+//  const output = arr.reduce((res,curr) =>{
+// return res + curr;
+//  }
+//  )
+//  console.log(output);
+let arr = [103, 382, 5463, 4785354,3838,282921,9292292];
+ const output = arr.reduce((prev,curr) =>{
+return prev > curr ? prev : curr;
+ }
+ )
+ console.log(output);
 
 
 
