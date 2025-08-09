@@ -17,12 +17,26 @@
 
 // }
 // console.log(secondLargestOptimised([16, 28, 23, 94, 55, 36, 7, 7, 99, 10]) );
-
-
-
  
+// --------------------------------
 
+// DSA qs_2 => Rotate array by k
+// Given an integer array nums, rotate the array to the right by k steps
+//  where k is non-negative.
+ 
+// input nums = [1,2,3,4,5,6,7], k = 3// output [5,6,7,1,2,3,4] 
+// input nums = [-1,-100,3,99], k = 2// output [3,99,-1,-100]
 
+function rotateArray(nums, k){
+  let size = nums.length;
+  if(k>size){
+    k = k % size;
+  }
+  const rotated = nums.splice(size - k, size);
+nums.unshift(...rotated);
+return nums;
+}
+console.log(rotateArray([1,2,3,4,5,6,7], 3)); 
 
 
 
