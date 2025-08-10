@@ -27,25 +27,37 @@
 // input nums = [1,2,3,4,5,6,7], k = 3// output [5,6,7,1,2,3,4] 
 // input nums = [-1,-100,3,99], k = 2// output [3,99,-1,-100]
 
-function rotateArray(nums, k){
-  let size = nums.length;
-  if(k>size){
-    k = k % size;
+// function rotateArray(nums, k){
+//   let size = nums.length;
+//   if(k>size){
+//     k = k % size;
+//   }
+//   const rotated = nums.splice(size - k, size);
+// nums.unshift(...rotated);
+// return nums;
+// }
+// console.log(rotateArray([1,2,3,4,5,6,7], 3)); 
+
+// solution #02
+// [1,2,3,4,5,6,7] =>[7,6,5,4,3,2,1] =>[5,6,7,4,3,2,1] =>[5,6,7,1,2,3,4]
+
+
+ function reverse(nums,left,right)
+{
+  while(left<right){
+    const temp = nums[left];
+     nums[left++] = nums[right]; 
+      nums[right--] = temp;
+    
   }
-  const rotated = nums.splice(size - k, size);
-nums.unshift(...rotated);
-return nums;
 }
-console.log(rotateArray([1,2,3,4,5,6,7], 3)); 
-
-
-
-
-
-
-
-
-
+function rotateArrayOptimised(nums, k){
+reverse(nums,0,nums.length-1);
+reverse(nums,0,k-1);
+reverse(nums,k,nums.length-1);
+return nums;
+} 
+console.log(rotateArrayOptimised([1,2,3,4,5,6,7], 3));
 
 
 
